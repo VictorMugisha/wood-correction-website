@@ -3,17 +3,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | Wood Correction Co. Ltd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lilita+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
+    <!-- Top Contact Information -->
+    <div class="top-contact-info">
+        <div class="left">
+            <div class="item">
+                <i class="uil uil-envelope-alt"></i>
+                <p>wccltd2023@gmail.com</p>
+            </div>
+            <div class="item">
+                <i class="uil uil-phone"></i>
+                <p>+250 788 412 792</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of top contact information -->
 
-    <h1>This is a first HTML element added to code after initial commit!!</h1>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><h1>WOOD CORRECTION CO. LTD</h1></a>
+        </div>
+        <div class="search-bar">
+            <i class="uil uil-search"></i>
+            <form method="post">
+                <input type="search" placeholder="Search Furnitures...">
+            </form>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="garelly.html">Garelly</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <button class="menu-btn" onclick="openMobileNav();">
+            <i class="uil uil-list-ui-alt"></i>
+        </button>
+    </nav>
+    <!-- End of navigation -->
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente architecto aliquam deserunt, consequatur modi fuga ea aliquid obcaecati aperiam? Sit iure, iste ad quidem laudantium repudiandae modi cum? Deserunt, molestias.</p>
-    <p>Reprehenderit, modi neque corrupti adipisci asperiores nemo qui suscipit nihil delectus recusandae culpa voluptas deleniti quasi. Sapiente at atque commodi nemo placeat. Quo maiores optio non, voluptates debitis enim nesciunt.</p>
-    <p>Consequuntur quos sequi earum adipisci quasi dolorem, esse neque reiciendis accusantium animi libero magni temporibus nobis facere voluptates recusandae? Dolorum tempora reiciendis rerum non! Amet id quam necessitatibus quasi molestiae.</p>
-    <p>Veniam, dicta a praesentium dignissimos non animi molestias minus optio exercitationem amet, nam unde voluptates cupiditate sit minima suscipit ipsum reiciendis, enim tempora. Dolor voluptatibus recusandae officiis? Aliquid, voluptatum aliquam!</p>
-    <p>Doloremque error cumque quia exercitationem optio in sapiente repellat officiis voluptate nostrum nulla, aut atque? Voluptate sit officiis pariatur esse, facilis quis expedita ex blanditiis? Dolores possimus vitae nobis iure!</p>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <div class="close-btn">
+            <button onclick="closeMobileNav();">&times;</button>
+        </div>
+        <div class="mobile-search">
+            <i class="uil uil-search"></i>
+            <form method="post">
+                <input type="search" placeholder="Search Furnitures...">
+            </form>
+        </div>
+        <div class="links">
+            <a href="index.html">HOMEPAGE</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="garelly.html">OUR GARELLY</a>
+        </div>
+    </div>
+    <!-- End Of Mobile Navigation -->
 
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner-text">
+            <div class="switching-words">
+                <h1>Furnish </h1>
+                <div class="words">
+                    <span>your home</span>
+                    <span>your office</span>
+                    <span>your house</span>
+                    <span>your workspace</span>
+                    <span>your home</span>
+                </div>
+            </div>
+            <h2>With Us!</h2>
+            <p>Crafting Dreams, Forging Legacies. Experience Unmatched Artistry and Quality in Every Piece – Your Home, Our Masterpiece.</p>
+            <div class="banner-btn">
+                <a href="garelly.html"><button class="banner-explore">Explore</button></a>
+                <a href="about.html"><button class="banner-learn">Learn More</button></a>
+            </div>
+        </div>
+
+        <div class="banner-address">
+            <div class="address-item">
+                <div class="icon">
+                    <i class="uil uil-map-marker"></i>
+                </div>
+                <div class="title">
+                    <h3>Location</h3>
+                </div>
+                <div class="content">
+                    <p>Gisozi / Kigali City / Rwanda </p>
+                </div>
+            </div>
+            <div class="address-item">
+                <div class="icon">
+                    <i class="uil uil-envelope-alt"></i>
+                </div>
+                <div class="title">
+                    <h3>Email</h3>
+                </div>
+                <div class="content">
+                    <p>wccltd2023@gmail.com </p>
+                </div>
+            </div>
+            <div class="address-item">
+                <div class="icon">
+                    <i class="uil uil-phone"></i>
+                </div>
+                <div class="title">
+                    <h3>Phone Number</h3>
+                </div>
+                <div class="content">
+                    <p>+250 788 412 792 </p>
+                </div>
+            </div>
+            <div class="address-item">
+                <div class="icon">
+                    <i class="uil uil-globe"></i>
+                </div>
+                <div class="title">
+                    <h3>Social Networks</h3>
+                </div>
+                <div class="content">
+                    <p>Facebook | Twitter | Instagram</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Endo of banner -->
+
+    <!-- About us section  -->
+    <div class="about">
+        <div class="about-image">
+            <img src="./images/1.jpg">
+        </div>
+        <div class="about-text">
+            <div class="header">
+                <h2>ABOUT US</h2>
+            </div>
+            <div class="text">
+                <p>
+                    At Wood Correction Co. Ltd, we are the guardians of timeless woodworking excellence. Our artisans meticulously handcraft custom wooden furniture that reflects your unique style. We specialize in the art of restoration, preserving cherished heirlooms and antique pieces with unwavering dedication. Sustainability is at our core, from responsible material sourcing to eco-conscious finishing. Elevate your living spaces with Wood Correction Co. Ltd, where craftsmanship is an art, and each creation is a masterpiece of enduring beauty.
+                </p>
+                <!-- <marquee direction="left-right">WELCOME TO WOOD CORRECTION CO. LTD</marquee> -->
+                <div class="social-media-icons">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <a href=""><li><i title="Facebook" class="uil uil-facebook-f"></i></li></a>
+                        <a href=""><li><i title="Instagram" class="uil uil-instagram-alt"></i></li></a>
+                        <a href=""><li><i title="Twitter" class="uil uil-twitter-alt"></i></li></a>
+                    </ul>
+                </div>
+                <a href="about.html"><button class="btn btn-primary">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- End of about us section  -->
+
+    <!-- Products Section begins here  -->
+    <div class="our-products">
+        <div class="header">
+            <h2>OUR LATEST PRODUCTS</h2>
+            <div class="line"></div>
+        </div>
+        <!-- <div class="products-nav">
+            <ul>
+                <li class="active">All</li>
+                <li>Dinning Tables</li>
+                <li>Living Room</li>
+                <li>Kitchen</li>
+                <li>Balcony</li>
+                <li>Others</li>
+            </ul>
+        </div> -->
+        <div class="products-container">
+            <!-- Product 1  -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g7.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Office wooden chair</h3>
+                </div>
+            </div>
+            <!-- End of product 1 -->
+
+            <!-- Product 2 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g8.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Dining room chairs</h3>
+                </div>
+            </div>
+            <!-- End of product 2 -->
+
+            <!-- Product 3 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g1.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Muvula wardrobe</h3>
+                </div>
+            </div>
+            <!-- End of product 3 -->
+
+            <!-- Product 4 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g2.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Incredeble kitchen</h3>
+                </div>
+            </div>
+            <!-- End of product 4 -->
+
+            <!-- Product 5 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g3.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Libuyu bedroom wardrobe</h3>
+                </div>
+            </div>
+            <!-- End of product 5 -->
+
+            <!-- Product 6 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g4.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Sofa table</h3>
+                </div>
+            </div>
+            <!-- End of product 6 -->
+
+            <!-- Product 7 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g5.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Living room desk</h3>
+                </div>
+            </div>
+            <!-- End of product 7 -->
+
+            <!-- Product 8 -->
+            <div class="product">
+                <div class="like-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
+                <div class="product-image">
+                    <img src="./images/g6.jpg">
+                </div>
+                <div class="product-title">
+                    <h3>Sofa bench</h3>
+                </div>
+            </div>
+            <!-- End of product 8 -->
+        </div>
+        <!-- End of products container -->
+        <div class="view-more">
+            <a href="garelly.html"><button class="btn btn-primary">View More</button></a>
+        </div>
+    </div>
+    <!-- End of Products section  -->
+    
+
+    <!-- Footer Section  -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <h1>WOOD <span>CORRECTION CO. LTD</span></h1>
+            </div>
+            <div class="container">
+                <div class="wrapper">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="wrapper">
+                    <a href="about.html">ABOUT US</a>
+                </div>
+                <div class="wrapper">
+                    <a href="contact.html">CONTACT US</a>
+                </div>
+                <div class="wrapper">
+                    <a href="garelly.html">OUR GALLERY</a>
+                </div>
+            </div>
+        </div>
+        <form method="post">
+            <h4>Subscribe to our newslater</h4>
+            <div class="input">
+                <input type="text" id="newslater" name="newslater" placeholder="Your Email">
+                <button type="submit">Subscribe</button>
+            </div>
+        </form>
+        <hr>
+        <div class="footer-icons">
+            <ul>
+                <a href=""><li><i title="Facebook" class="uil uil-facebook-f"></i></li></a>
+                <a href=""><li><i title="Instagram" class="uil uil-instagram"></i></li></a>
+                <a href=""><li><i title="WhatsApp" class="uil uil-whatsapp"></i></li></a>
+                <a href=""><li><i title="Twitter" class="uil uil-twitter"></i></li></a>
+                <a href=""><li><i title="Gmail" class="uil uil-envelopes"></i></li></a>
+            </ul>
+            <p>&copy; Copyright: All Rights Reserved - WOOD CORRECTION CO. LTD 2023</p>
+        </div>
+    </div>
+    <!-- End of footer Section  -->
+    <script src="script.js"></script>
 </body>
 </html>
